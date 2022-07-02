@@ -12,7 +12,7 @@ public class MoveTowardsSample : MonoBehaviour
     // Start is called before the first frame update
     private void Awake()
     {
-        //_rigidbody = GetComponent<Rigidbody>();
+        _rigidbody = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
