@@ -24,9 +24,6 @@ public class LerpSample : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-
-
         float distanceCovered = (Time.time - startTime) * speedCoef;
 
         float journeyFraction = distanceCovered / journeyLength;
@@ -38,6 +35,5 @@ public class LerpSample : MonoBehaviour
 
     private void TriggerParticle(GameObject gameObject)
     {
-
     }
 }
