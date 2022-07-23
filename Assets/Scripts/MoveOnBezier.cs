@@ -22,10 +22,13 @@ public class MoveOnBezier : MonoBehaviour
         while (t <= 1)
         {
             t += Time.deltaTime * _speedCoef;
-            positionToGo = BezierCurveEditor.GetBezierCurvePointByT(t, _beizerCurve[_runningBezierCurveNo].GetChild(0).position,
+            transform.SetPositionByBezierCurvePoint(t, _beizerCurve[_runningBezierCurveNo].GetChild(0).position,
             _beizerCurve[_runningBezierCurveNo].GetChild(1).position, _beizerCurve[_runningBezierCurveNo].GetChild(2).position, 
             _beizerCurve[_runningBezierCurveNo].GetChild(3).position);
-            transform.position = positionToGo;
+            // positionToGo = BezierCurveEditor.GetBezierCurvePointByT(t, _beizerCurve[_runningBezierCurveNo].GetChild(0).position,
+            // _beizerCurve[_runningBezierCurveNo].GetChild(1).position, _beizerCurve[_runningBezierCurveNo].GetChild(2).position, 
+            // _beizerCurve[_runningBezierCurveNo].GetChild(3).position);
+            // transform.position = positionToGo;
             yield return new WaitForEndOfFrame();
         }
 

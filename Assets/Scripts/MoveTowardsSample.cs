@@ -12,7 +12,6 @@ public class MoveTowardsSample : MonoBehaviour
     // Start is called before the first frame update
     private void Awake()
     {
-        Debug.Log("Start");
         //_rigidbody = GetComponent<Rigidbody>();
     }
 
@@ -28,11 +27,11 @@ public class MoveTowardsSample : MonoBehaviour
         // _rigidbody.AddForce(_distanceToTarget * speedCoef);
     }
 
-    private void LateUpdate()
-    {
-        var targetPosition = _targetObject.position;
-        transform.position = Vector3.MoveTowards(transform.position, targetPosition, speedCoef * Time.deltaTime);
-    }
+    // private void LateUpdate()
+    // {
+    //     var targetPosition = _targetObject.position;
+    //     transform.position = Vector3.MoveTowards(transform.position, targetPosition, speedCoef * Time.deltaTime);
+    // }
 
     private void OnDrawGizmos()
     {
