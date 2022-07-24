@@ -9,11 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7526a2dc709ed094b855d902a4707335, type: 3}
-  m_Name: Moon 1
+  m_Script: {fileID: 11500000, guid: 9fccdaed827be604a8713561307cf54d, type: 3}
+  m_Name: Earth
   m_EditorClassIdentifier: 
-  CelestialName: 
-  CelestialDescription: 
-  Radius: 0
-  _moonPrefab: {fileID: 7464753880321401555, guid: 0885bbabbe029b247b55a4b0e3608819, type: 3}
-  _orbitRadius: 10
+  _celestialName: Earth
+  CelestialDescription: Planet Earth
+  Radius: 1500
+  CelestialPrefab: {fileID: 347926155550865078, guid: fcfd49c7426157a4ea4e6d690cb6fdbe, type: 3}
+  Population: 8000000000

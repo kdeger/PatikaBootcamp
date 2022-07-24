@@ -1,0 +1,21 @@
+{
+    "MasteVolume": 50,
+    "MusicVolume": 30,
+    "SoundVolume": 70,
+    "Language": "",
+    "SubtitleOn": true,
+    "Fullscreen": true,
+    "Fov": 10.0,
+    "Gamma": 20.0,
+    "Brightness": 30.0,
+    "MouseSensitivity": 1.5,
+    "InvertY": false,
+    "InvertX": false,
+    "PlayerName": "Patika",
+    "PlayerLevel": 2,
+    "PlayerExperience": 2000,
+    "PlayerHealth": 85,
+    "PlayerMaxHealth": 100,
+    "PlayerMana": 85,
+    "PlayerMaxMana": 150
+}

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce6ef452e70a88844b4dcf3658fff3ce, type: 3}
+  m_Name: Level1
+  m_EditorClassIdentifier: 
+  StarGroups:
+  - Star: {fileID: 11400000, guid: ef9f85534a76a9c488ac0b70b3044556, type: 2}
+    StarPosition: {x: 0, y: 0, z: 0}
+    Planets:
+    - Planet: {fileID: 11400000, guid: 10df8f6b5599f0d43bf49eed024feb42, type: 2}
+      DistanceToStar: 50
+      Moons:
+      - Moon: {fileID: 11400000, guid: dddaf214b2c68bc45a3b3246071527fc, type: 2}
+        DistanceToPlanet: 12
+      - Moon: {fileID: 11400000, guid: 190e8064b2b511846b5b1ac27606c42c, type: 2}
+        DistanceToPlanet: 15
+  - Star: {fileID: 11400000, guid: ef9f85534a76a9c488ac0b70b3044556, type: 2}
+    StarPosition: {x: 200, y: 0, z: 0}
+    Planets:
+    - Planet: {fileID: 11400000, guid: 10df8f6b5599f0d43bf49eed024feb42, type: 2}
+      DistanceToStar: 50
+      Moons:
+      - Moon: {fileID: 11400000, guid: dddaf214b2c68bc45a3b3246071527fc, type: 2}
+        DistanceToPlanet: 12
+      - Moon: {fileID: 11400000, guid: 190e8064b2b511846b5b1ac27606c42c, type: 2}
+        DistanceToPlanet: 15
