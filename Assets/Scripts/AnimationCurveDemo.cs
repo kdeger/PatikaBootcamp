@@ -5,15 +5,17 @@ using System;
 
 public class AnimationCurveDemo : MonoBehaviour
 {
-    [SerializeField] AnimationCurve _animationCurve;
-    [SerializeField] float animTime;
+    [SerializeField] private AnimationCurve _animationCurve;
+    [SerializeField] private float _animTime;
     // Start is called before the first frame update
-    GameObject _testObject;
+    private GameObject _testObject;
 
     public event Action<GameObject> OnAnimationFinished;
     void Start()
     {
         StartCoroutine(AnimationCurveCor());
+        CharacterController characterController = new CharacterNavMeshMovementController();
+        characterController.Move(Vector3.zero);
     }
 
     IEnumerator AnimationCurveCor()
@@ -25,9 +27,9 @@ public class AnimationCurveDemo : MonoBehaviour
         _animationCurve.SmoothTangents(0, 0.25f);
         _animationCurve.SmoothTangents(1, 1f);
         _animationCurve.SmoothTangents(2, 0.25f);
-        while (currentTime < animTime)
+        while (currentTime < _animTime)
         {
-            transform.position = new Vector2(_animationCurve.Evaluate(currentTime / animTime), transform.position.y);
+            transform.position = new Vector2(_animationCurve.Evaluate(currentTime / _animTime), transform.position.y);
             currentTime += Time.deltaTime;
             yield return new WaitForEndOfFrame();
         }

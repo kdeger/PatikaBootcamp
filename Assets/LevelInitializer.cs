@@ -10,7 +10,6 @@ public class LevelInitializer : MonoBehaviour
     {
         InstantiatePrefabs();
     }
-
     private void InstantiatePrefabs()
     {
         foreach (var starGroup in levelData.StarGroups)
