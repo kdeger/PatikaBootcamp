@@ -14,8 +14,6 @@ public class AnimationCurveDemo : MonoBehaviour
     void Start()
     {
         StartCoroutine(AnimationCurveCor());
-        CharacterController characterController = new CharacterNavMeshMovementController();
-        characterController.Move(Vector3.zero);
     }
 
     IEnumerator AnimationCurveCor()

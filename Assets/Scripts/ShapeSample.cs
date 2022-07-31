@@ -16,6 +16,10 @@ public class ShapeSample : MonoBehaviour
         Debug.Log("Total volume: " + volumeCalculator.GetTotalVolume());
         Debug.Log("Total volume from float: " + volumeCalculatorFloat.GetTotalVolume());
     }
+
+    private void Awake() {
+        Debug.Log(BoosterController.Instance.gameObject.name);
+    }
 }
 
 public interface ICalculateVolume
