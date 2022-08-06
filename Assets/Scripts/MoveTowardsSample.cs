@@ -12,7 +12,13 @@ public class MoveTowardsSample : MonoBehaviour
     // Start is called before the first frame update
     private void Awake()
     {
-        //_rigidbody = GetComponent<Rigidbody>();
+        _rigidbody = GetComponent<Rigidbody>();
+
+        //float totalVelocity = _rigidbody.velocity.x + _rigidbody.velocity.y + _rigidbody.velocity.z;
+        float totalVelocity = _rigidbody.GetTotalVelocity();
+        _rigidbody.AddStaticForceOnForward(3);
+        _rigidbody.AddForce(Vector3.forward * 3, ForceMode.Acceleration);
+        transform.ManipulateTransform(Vector3.zero, Quaternion.identity, Vector3.one);
     }
 
     // Update is called once per frame

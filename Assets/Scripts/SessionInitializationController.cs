@@ -12,13 +12,12 @@ public class SessionInitializationController : MonoBehaviour
     private void Awake()
     {
         OnSessionInitialized += StopAnimator;
-        OnSessionInitialized += ActivateSceneOnInitializationComplete;
     }
 
     void Start()
     {
         StartCoroutine(InitializeSession());
-        StartCoroutine(LoadLevelSceneAsync());
+        StateContext.Transition(new InitState());
     }
 
     IEnumerator InitializeSession()
@@ -28,26 +27,6 @@ public class SessionInitializationController : MonoBehaviour
         Debug.Log("Session Initialized");
     }
 
-    void ActivateSceneOnInitializationComplete()
-    {
-        _activateScene = true;
-    }
-
-    IEnumerator LoadLevelSceneAsync()
-    {
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("LevelScene", LoadSceneMode.Additive);
-        asyncLoad.allowSceneActivation = false;
-        while (!asyncLoad.isDone)
-        {
-            if (asyncLoad.progress >= 0.9f)
-            {
-                Debug.Log("Scene Loaded");
-                asyncLoad.allowSceneActivation = _activateScene;
-            }
-            yield return null;
-        }
-        Debug.Log("Scene Loaded and ready to activate");
-    }
 
     private void StopAnimator()
     {

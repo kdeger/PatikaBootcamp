@@ -39,15 +39,15 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 826
+    x: 860
     y: 0
-    width: 641
+    width: 607
     height: 605
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 19}
+  m_ActualView: {fileID: 20}
   m_Panes:
-  - {fileID: 19}
+  - {fileID: 20}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &3
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 55
+  controlID: 128
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -94,14 +94,15 @@ MonoBehaviour:
     y: 0
     width: 453
     height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 16}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 17}
   m_Panes:
-  - {fileID: 16}
+  - {fileID: 17}
+  - {fileID: 14}
   - {fileID: 13}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 2
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -121,11 +122,11 @@ MonoBehaviour:
     y: 0
     width: 323
     height: 605
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 17}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 17}
+  - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &6
@@ -149,11 +150,11 @@ MonoBehaviour:
     height: 342
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 15}
+  m_ActualView: {fileID: 16}
   m_Panes:
+  - {fileID: 16}
+  - {fileID: 21}
   - {fileID: 15}
-  - {fileID: 20}
-  - {fileID: 14}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &7
@@ -251,7 +252,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 39
+  controlID: 101
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -277,7 +278,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 40
+  controlID: 102
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -295,16 +296,592 @@ MonoBehaviour:
     serializedVersion: 2
     x: 323
     y: 0
-    width: 503
+    width: 537
     height: 605
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 18}
+  m_ActualView: {fileID: 19}
   m_Panes:
-  - {fileID: 18}
+  - {fileID: 19}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13401, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Test Runner
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1467
+    y: 73
+    width: 452
+    height: 926
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_Spl:
+    ID: 3190
+    splitterInitialOffset: 0
+    currentActiveSplitter: -1
+    realSizes:
+    - 642
+    - 214
+    relativeSizes:
+    - 0.75
+    - 0.25
+    minSizes:
+    - 32
+    - 32
+    maxSizes:
+    - 0
+    - 0
+    lastTotalSize: 856
+    splitSize: 6
+    xOffset: 0
+    m_Version: 1
+    oldRealSizes: 
+    oldMinSizes: 
+    oldMaxSizes: 
+    oldSplitSize: 0
+  m_TestTypeToolbarIndex: 0
+  m_PlayModeTestListGUI:
+    m_Window: {fileID: 13}
+    m_NewResultList:
+    - id: 1021
+      uniqueId: '[BootcampProject][suite]'
+      name: BootcampProject
+      fullName: BootcampProject
+      resultStatus: 1
+      duration: 3.5420308
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1004
+      uniqueId: '[PlayTests][M:/Unity/PatikaBootcamp/Library/ScriptAssemblies/PlayTests.dll][suite]'
+      name: PlayTests.dll
+      fullName: M:/Unity/PatikaBootcamp/Library/ScriptAssemblies/PlayTests.dll
+      resultStatus: 1
+      duration: 3.3889248
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[BootcampProject][suite]'
+    - id: 1001
+      uniqueId: PlayTests.dll/[PlayTests][PlayerMovementTest][suite]
+      name: PlayerMovementTest
+      fullName: PlayerMovementTest
+      resultStatus: 1
+      duration: 3.3810542
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1004
+      parentUniqueId: '[PlayTests][M:/Unity/PatikaBootcamp/Library/ScriptAssemblies/PlayTests.dll][suite]'
+    - id: 1002
+      uniqueId: PlayTests.dll/PlayerMovementTest/[PlayTests][PlayerMovementTest.PlayerMovementTestSimplePasses]
+      name: PlayerMovementTestSimplePasses
+      fullName: PlayerMovementTest.PlayerMovementTestSimplePasses
+      resultStatus: 1
+      duration: 0.0112949
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: PlayTests.dll/[PlayTests][PlayerMovementTest][suite]
+    - id: 1003
+      uniqueId: PlayTests.dll/PlayerMovementTest/[PlayTests][PlayerMovementTest.TransformMoverTestWithEnumeratorPasses]
+      name: TransformMoverTestWithEnumeratorPasses
+      fullName: PlayerMovementTest.TransformMoverTestWithEnumeratorPasses
+      resultStatus: 1
+      duration: 3.363322
+      messages: 
+      output: 'Loading scene
+
+        Loading scene
+
+        Loading scene
+
+        Loading
+        scene
+
+        Loading scene
+
+        Loading scene
+
+        Loading scene
+
+        Loading
+        scene
+
+        Loading scene
+
+        Loading scene
+
+        Loading scene
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: PlayTests.dll/[PlayTests][PlayerMovementTest][suite]
+    m_ResultText: 'TransformMoverTestWithEnumeratorPasses (3.363s)
+
+      ---
+
+      Loading
+      scene
+
+      Loading scene
+
+      Loading scene
+
+      Loading scene
+
+      Loading
+      scene
+
+      Loading scene
+
+      Loading scene
+
+      Loading scene
+
+      Loading
+      scene
+
+      Loading scene
+
+      Loading scene'
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: da654f48
+      m_LastClickedID: 1213162970
+      m_ExpandedIDs: d0a312d9f809d8269bec1a7effffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+    m_SelectedOption: 0
+  m_EditModeTestListGUI:
+    m_Window: {fileID: 13}
+    m_NewResultList:
+    - id: 1000
+      uniqueId: '[BootcampProject][suite]'
+      name: BootcampProject
+      fullName: BootcampProject
+      resultStatus: 1
+      duration: 0.0751975
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1004
+      uniqueId: '[Tests.dll][suite]'
+      name: Tests.dll
+      fullName: M:/Unity/PatikaBootcamp/Library/ScriptAssemblies/Tests.dll
+      resultStatus: 1
+      duration: 0.0440697
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[BootcampProject][suite]'
+    - id: 1005
+      uniqueId: Tests.dll/[Tests][suite]
+      name: Tests
+      fullName: Tests
+      resultStatus: 1
+      duration: 0.0427281
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1004
+      parentUniqueId: '[Tests.dll][suite]'
+    - id: 1001
+      uniqueId: Tests.dll/Tests/[Tests][Tests.NewTestScript][suite]
+      name: NewTestScript
+      fullName: Tests.NewTestScript
+      resultStatus: 1
+      duration: 0.0418226
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1005
+      parentUniqueId: Tests.dll/[Tests][suite]
+    - id: 1012
+      uniqueId: Tests.dll/Tests/NewTestScript/[Tests][Tests.NewTestScript.DateTimeDayTest][suite]
+      name: DateTimeDayTest
+      fullName: Tests.NewTestScript.DateTimeDayTest
+      resultStatus: 1
+      duration: 0.0377019
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.NewTestScript][suite]
+    - id: 1011
+      uniqueId: Tests.dll/Tests/NewTestScript/DateTimeDayTest/[Tests][Tests.NewTestScript.DateTimeDayTest("07/30/2022
+        07:22:16")]
+      name: DateTimeDayTest("07/30/2022 07:22:16")
+      fullName: Tests.NewTestScript.DateTimeDayTest("07/30/2022 07:22:16")
+      resultStatus: 1
+      duration: 0.0279979
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1012
+      parentUniqueId: Tests.dll/Tests/NewTestScript/[Tests][Tests.NewTestScript.DateTimeDayTest][suite]
+    - id: 1012
+      uniqueId: Tests.dll/Tests/NewTestScript/DateTimeDayTest/[Tests][Tests.NewTestScript.DateTimeDayTest("07/28/2022
+        07:22:16")]
+      name: DateTimeDayTest("07/28/2022 07:22:16")
+      fullName: Tests.NewTestScript.DateTimeDayTest("07/28/2022 07:22:16")
+      resultStatus: 1
+      duration: 0.0246613
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1013
+      parentUniqueId: Tests.dll/Tests/NewTestScript/[Tests][Tests.NewTestScript.DateTimeDayTest][suite]
+    - id: 1002
+      uniqueId: Tests.dll/Tests/NewTestScript/[Tests][Tests.NewTestScript.NewTestScriptSimplePasses]
+      name: NewTestScriptSimplePasses
+      fullName: Tests.NewTestScript.NewTestScriptSimplePasses
+      resultStatus: 1
+      duration: 0.0206431
+      messages: 
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.NewTestScript][suite]
+    - id: 1003
+      uniqueId: Tests.dll/Tests/NewTestScript/[Tests][Tests.NewTestScript.NewTestScriptWithEnumeratorPasses]
+      name: NewTestScriptWithEnumeratorPasses
+      fullName: Tests.NewTestScript.NewTestScriptWithEnumeratorPasses
+      resultStatus: 1
+      duration: 0.0138048
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.NewTestScript][suite]
+    - id: 1010
+      uniqueId: Tests.dll/Tests/NewTestScript/[Tests][Tests.NewTestScript.SimpleDamageTest][suite]
+      name: SimpleDamageTest
+      fullName: Tests.NewTestScript.SimpleDamageTest
+      resultStatus: 1
+      duration: 0.0059966
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.NewTestScript][suite]
+    - id: 1007
+      uniqueId: Tests.dll/Tests/NewTestScript/SimpleDamageTest/[Tests][Tests.NewTestScript.SimpleDamageTest(10)]
+      name: SimpleDamageTest(10)
+      fullName: Tests.NewTestScript.SimpleDamageTest(10)
+      resultStatus: 1
+      duration: 0.001191
+      messages: 
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1010
+      parentUniqueId: Tests.dll/Tests/NewTestScript/[Tests][Tests.NewTestScript.SimpleDamageTest][suite]
+    - id: 1008
+      uniqueId: Tests.dll/Tests/NewTestScript/SimpleDamageTest/[Tests][Tests.NewTestScript.SimpleDamageTest(20)]
+      name: SimpleDamageTest(20)
+      fullName: Tests.NewTestScript.SimpleDamageTest(20)
+      resultStatus: 1
+      duration: 0.0007713
+      messages: 
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1010
+      parentUniqueId: Tests.dll/Tests/NewTestScript/[Tests][Tests.NewTestScript.SimpleDamageTest][suite]
+    - id: 1009
+      uniqueId: Tests.dll/Tests/NewTestScript/SimpleDamageTest/[Tests][Tests.NewTestScript.SimpleDamageTest(-10)]
+      name: SimpleDamageTest(-10)
+      fullName: Tests.NewTestScript.SimpleDamageTest(-10)
+      resultStatus: 1
+      duration: 0.0006263
+      messages: 
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1010
+      parentUniqueId: Tests.dll/Tests/NewTestScript/[Tests][Tests.NewTestScript.SimpleDamageTest][suite]
+    - id: 1004
+      uniqueId: Tests.dll/Tests/NewTestScript/[Tests][Tests.NewTestScript.SimpleHealthTest][suite]
+      name: SimpleHealthTest
+      fullName: Tests.NewTestScript.SimpleHealthTest
+      resultStatus: 1
+      duration: 0.0073626
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.NewTestScript][suite]
+    - id: 1003
+      uniqueId: Tests.dll/Tests/NewTestScript/SimpleHealthTest/[Tests][Tests.NewTestScript.SimpleHealthTest(10)]
+      name: SimpleHealthTest(10)
+      fullName: Tests.NewTestScript.SimpleHealthTest(10)
+      resultStatus: 1
+      duration: 0.0010719
+      messages: 
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1004
+      parentUniqueId: Tests.dll/Tests/NewTestScript/[Tests][Tests.NewTestScript.SimpleHealthTest][suite]
+    - id: 1004
+      uniqueId: Tests.dll/Tests/NewTestScript/SimpleHealthTest/[Tests][Tests.NewTestScript.SimpleHealthTest(20)]
+      name: SimpleHealthTest(20)
+      fullName: Tests.NewTestScript.SimpleHealthTest(20)
+      resultStatus: 1
+      duration: 0.0006561
+      messages: 
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1005
+      parentUniqueId: Tests.dll/Tests/NewTestScript/[Tests][Tests.NewTestScript.SimpleHealthTest][suite]
+    - id: 1005
+      uniqueId: Tests.dll/Tests/NewTestScript/SimpleHealthTest/[Tests][Tests.NewTestScript.SimpleHealthTest(-10)]
+      name: SimpleHealthTest(-10)
+      fullName: Tests.NewTestScript.SimpleHealthTest(-10)
+      resultStatus: 1
+      duration: 0.0006435
+      messages: 
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: Tests.dll/Tests/NewTestScript/[Tests][Tests.NewTestScript.SimpleHealthTest][suite]
+    m_ResultText: DateTimeDayTest("07/28/2022 07:22:16") (0.025s)
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: a04695f6
+      m_LastClickedID: -157989216
+      m_ExpandedIDs: b47395861556d9c0ee6e60d1e557abf7f809d82622524b3a8359db417dc7445e107fb96dffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -332,7 +909,7 @@ MonoBehaviour:
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
---- !u!114 &14
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -362,8 +939,8 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 23438
---- !u!114 &15
+  m_LastSelectedObjectID: -39036
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -402,24 +979,24 @@ MonoBehaviour:
     m_SceneHandles: 
     m_ShowAllHits: 0
     m_SkipHidden: 0
-    m_SearchArea: 1
+    m_SearchArea: 0
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: M:\Unity\PatikaBootcamp
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 0a5b0000
-    m_LastClickedID: 23306
-    m_ExpandedIDs: 00000000de5a0000e05a0000e25a00000e5b000000ca9a3b
+    m_SelectedIDs: 845e0000
+    m_LastClickedID: 24196
+    m_ExpandedIDs: 000000005c5e00005e5e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -435,7 +1012,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 6}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -447,7 +1024,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000de5a0000e05a0000e25a0000
+    m_ExpandedIDs: 000000005c5e00005e5e0000605e0000625e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -474,7 +1051,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -503,7 +1080,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
---- !u!114 &16
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -538,13 +1115,13 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 600
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &17
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -575,9 +1152,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 9ee40000
       m_LastClickedID: 0
-      m_ExpandedIDs: 52f7ffff34fbffff
+      m_ExpandedIDs: a06dffffa47affff9683ffffe683ffff6685ffffce86ffff1e87ffff9e88ffff2c8bffff7c8bffffd88cffff4292ffff9292ffff0e94ffff8297ffffd297ffff5299ffffae9afffff69affff6a9bfffffa9cffff4a9dffffc69effffeeabffff3eacffffbaadffff38b1ffff88b1ffff04b3ffff7ebbffffd4bbffff82bdffffd0beffff26bfffffd4c0ffff70c1ffffc0c1ffff3cc3ffff74c4ffffc4c4ffff40c6ffffecd0ffff3cd1ffffbcd2ffff62d7ffffb2d7ffff34d9ffffe2dcffffbeddffff9adeffffa2dfffffd4e0ffffcce1ffffbce2ffffcce3ffffbce4ffffb0e5ffffa0e6ffff92e7ffff82e8ffffb4eeffff9cefffff34fbfffff4ffffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -601,7 +1178,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &18
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -623,7 +1200,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 323
     y: 73
-    width: 501
+    width: 535
     height: 584
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -826,9 +1403,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -108.927734, y: -143.70596, z: 52.44783}
+    m_Target: {x: 0, y: 0, z: 0}
     speed: 2
-    m_Value: {x: -108.927734, y: -143.70596, z: 52.44783}
+    m_Value: {x: 0, y: 0, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -875,13 +1452,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.6718912, y: 0.027751809, z: -0.025207717, w: 0.7397003}
+    m_Target: {x: 0.5640108, y: -0.07898052, z: 0.054312, w: 0.8201854}
     speed: 2
-    m_Value: {x: 0.6718913, y: 0.02775181, z: -0.025207719, w: 0.7397004}
+    m_Value: {x: 0.5640108, y: -0.07898052, z: 0.054312, w: 0.8201854}
   m_Size:
-    m_Target: 149.88759
+    m_Target: 1.2247449
     speed: 2
-    m_Value: 149.88759
+    m_Value: 1.2247449
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -906,7 +1483,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &19
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -926,9 +1503,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 826
+    x: 860
     y: 73
-    width: 639
+    width: 605
     height: 584
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -940,7 +1517,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 639, y: 563}
+  m_TargetSize: {x: 605, y: 563}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -955,8 +1532,8 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -319.5
-    m_HBaseRangeMax: 319.5
+    m_HBaseRangeMin: -302.5
+    m_HBaseRangeMax: 302.5
     m_VBaseRangeMin: -281.5
     m_VBaseRangeMax: 281.5
     m_HAllowExceedBaseRangeMin: 1
@@ -976,29 +1553,29 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 639
+      width: 605
       height: 563
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 319.5, y: 281.5}
+    m_Translation: {x: 302.5, y: 281.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -319.5
+      x: -302.5
       y: -281.5
-      width: 639
+      width: 605
       height: 563
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 639, y: 584}
+  m_LastWindowPixelSize: {x: 605, y: 584}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &20
+--- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
